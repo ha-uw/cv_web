@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 10px;
+  padding-top: 0;
+  margin: 0;
+}
+
+.contacts {
+  padding-top: 20px;
+}
+
+.summary {
+  text-align: justify;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-frame {
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 50%;
+}
+
+.profile-pic {
+  display: inline;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  display: flex;
+  margin-top: auto;
+  justify-content: center;
+  align-items: center;
+}
